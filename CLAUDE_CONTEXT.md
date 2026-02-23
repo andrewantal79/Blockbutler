@@ -1,0 +1,1182 @@
+{
+  "neighborhoods": [
+    {
+      "id": "oakpark-harvey",
+      "name": "Harvey Ave Block",
+      "fullAddress": "600 Block of N. Harvey Avenue",
+      "city": "Oak Park",
+      "state": "IL",
+      "zip": "60302",
+      "lat": 41.8878,
+      "lng": -87.8028,
+      "activeUsers": 6,
+      "activeHouseholds": 5,
+      "activeProviders": 5,
+      "totalTransactions": 91,
+      "verifiedUsers": 4
+    }
+  ],
+  "households": [
+    {
+      "id": "household-613",
+      "name": "The Antal Home",
+      "address": "613 N. Harvey Avenue",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "city": "Oak Park",
+      "state": "IL",
+      "zip": "60302",
+      "lat": 41.8878,
+      "lng": -87.8028,
+      "members": [
+        "andrew"
+      ],
+      "primaryContact": "andrew",
+      "sharedKeyAccess": false,
+      "joinedDate": "February 2026"
+    },
+    {
+      "id": "household-248iowa",
+      "name": "The Martinez Home",
+      "address": "248 W. Iowa Street",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "city": "Oak Park",
+      "state": "IL",
+      "zip": "60302",
+      "lat": 41.8882,
+      "lng": -87.8035,
+      "members": [
+        "dana",
+        "rico"
+      ],
+      "primaryContact": "dana",
+      "sharedKeyAccess": true,
+      "joinedDate": "November 2024"
+    },
+    {
+      "id": "household-609",
+      "name": "The Chen Home",
+      "address": "609 N. Harvey Avenue",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "city": "Oak Park",
+      "state": "IL",
+      "zip": "60302",
+      "lat": 41.8875,
+      "lng": -87.8028,
+      "members": [
+        "mel"
+      ],
+      "primaryContact": "mel",
+      "sharedKeyAccess": true,
+      "joinedDate": "August 2024"
+    },
+    {
+      "id": "household-617",
+      "name": "The Williams Home",
+      "address": "617 N. Harvey Avenue",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "city": "Oak Park",
+      "state": "IL",
+      "zip": "60302",
+      "lat": 41.8881,
+      "lng": -87.8028,
+      "members": [
+        "tom"
+      ],
+      "primaryContact": "tom",
+      "sharedKeyAccess": true,
+      "joinedDate": "June 2024"
+    },
+    {
+      "id": "household-621",
+      "name": "The Johnson Home",
+      "address": "621 N. Harvey Avenue",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "city": "Oak Park",
+      "state": "IL",
+      "zip": "60302",
+      "lat": 41.8884,
+      "lng": -87.8028,
+      "members": [
+        "sarah"
+      ],
+      "primaryContact": "sarah",
+      "sharedKeyAccess": false,
+      "joinedDate": "October 2024"
+    },
+    {
+      "id": "household-605",
+      "name": "The Park Home",
+      "address": "605 N. Harvey Avenue",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "city": "Oak Park",
+      "state": "IL",
+      "zip": "60302",
+      "lat": 41.8872,
+      "lng": -87.8028,
+      "members": [
+        "james"
+      ],
+      "primaryContact": "james",
+      "sharedKeyAccess": false,
+      "joinedDate": "January 2025"
+    }
+  ],
+  "users": [
+    {
+      "id": "dana",
+      "name": "Dana Martinez",
+      "email": "dana.martinez@email.com",
+      "photo": "/images/profiles/dana.svg",
+      "householdId": "household-248iowa",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "verifiedDate": "November 2024",
+      "bio": "New mom looking for reliable help with everyday tasks. Love connecting with neighbors!",
+      "interests": [
+        "Parenting",
+        "Gardening",
+        "Cooking",
+        "Book Club",
+        "Running",
+        "Community Events"
+      ],
+      "connections": [
+        "tom",
+        "sarah",
+        "james",
+        "mel"
+      ],
+      "joinedDate": "November 2024",
+      "verified": true,
+      "tasksCompleted": 4,
+      "rating": 5,
+      "reviewCount": 2,
+      "totalEarnings": 480,
+      "thisMonthEarnings": 120,
+      "houseKeyTrusted": 0,
+      "houseKeyTrustedBy": [],
+      "tags": [
+        "Friendly",
+        "Reliable"
+      ],
+      "seeking": [
+        "cat-05",
+        "cat-06",
+        "cat-03",
+        "cat-04"
+      ],
+      "activeBookings": 2,
+      "activeClients": [
+        "tom"
+      ]
+    },
+    {
+      "id": "rico",
+      "name": "Rico Martinez",
+      "email": "rico.martinez@email.com",
+      "photo": "/images/profiles/rico.svg",
+      "householdId": "household-248iowa",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "verifiedDate": "November 2024",
+      "bio": "Dana's partner. Work from home, happy to help when available.",
+      "interests": [
+        "Cooking",
+        "Soccer",
+        "Music",
+        "Tech"
+      ],
+      "connections": [
+        "tom",
+        "mel"
+      ],
+      "joinedDate": "December 2024",
+      "verified": true,
+      "tasksCompleted": 0,
+      "rating": null,
+      "reviewCount": 0,
+      "totalEarnings": 0,
+      "thisMonthEarnings": 0,
+      "houseKeyTrusted": 0,
+      "houseKeyTrustedBy": [],
+      "tags": [],
+      "seeking": [
+        "cat-07",
+        "cat-02"
+      ],
+      "activeBookings": 0,
+      "activeClients": []
+    },
+    {
+      "id": "mel",
+      "name": "Mel Chen",
+      "email": "mel.chen@email.com",
+      "photo": "/images/profiles/mel.svg",
+      "householdId": "household-609",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "verifiedDate": "August 2024",
+      "bio": "Stay-at-home parent with flexible schedule. Love helping neighbors!",
+      "interests": [
+        "Cooking",
+        "Organization",
+        "Children",
+        "Fitness",
+        "Volunteering",
+        "Reading"
+      ],
+      "connections": [
+        "dana",
+        "tom",
+        "sarah"
+      ],
+      "joinedDate": "August 2024",
+      "verified": true,
+      "tasksCompleted": 89,
+      "rating": 4.9,
+      "reviewCount": 23,
+      "totalEarnings": 3840,
+      "thisMonthEarnings": 520,
+      "houseKeyTrusted": 3,
+      "houseKeyTrustedBy": [
+        "dana",
+        "tom",
+        "sarah"
+      ],
+      "tags": [
+        "Reliable",
+        "Flexible",
+        "Detail-oriented"
+      ],
+      "seeking": [],
+      "activeBookings": 3,
+      "activeClients": [
+        "dana",
+        "tom"
+      ]
+    },
+    {
+      "id": "tom",
+      "name": "Tom Williams",
+      "email": "tom.williams@email.com",
+      "photo": "/images/profiles/tom.svg",
+      "householdId": "household-617",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "verifiedDate": "June 2024",
+      "bio": "Retired teacher, happy to help with tutoring and handyman work.",
+      "interests": [
+        "Teaching",
+        "DIY Projects",
+        "Pets",
+        "History",
+        "Community Service"
+      ],
+      "connections": [
+        "mel",
+        "dana",
+        "sarah",
+        "james"
+      ],
+      "joinedDate": "June 2024",
+      "verified": true,
+      "tasksCompleted": 31,
+      "rating": 5,
+      "reviewCount": 31,
+      "totalEarnings": 1240,
+      "thisMonthEarnings": 280,
+      "houseKeyTrusted": 5,
+      "houseKeyTrustedBy": [
+        "mel",
+        "dana",
+        "sarah",
+        "james"
+      ],
+      "tags": [
+        "Experienced",
+        "Patient",
+        "Trustworthy"
+      ],
+      "seeking": [
+        "cat-12",
+        "cat-06"
+      ],
+      "activeBookings": 2,
+      "activeClients": [
+        "sarah",
+        "james"
+      ]
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com",
+      "photo": "/images/profiles/sarah.svg",
+      "householdId": "household-621",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "verifiedDate": "October 2024",
+      "bio": "Working from home, available for dog walking and plant care.",
+      "interests": [
+        "Dogs",
+        "Gardening",
+        "Hiking",
+        "Photography"
+      ],
+      "connections": [
+        "tom",
+        "mel",
+        "dana"
+      ],
+      "joinedDate": "October 2024",
+      "verified": false,
+      "tasksCompleted": 47,
+      "rating": 4.8,
+      "reviewCount": 15,
+      "totalEarnings": 1680,
+      "thisMonthEarnings": 340,
+      "houseKeyTrusted": 1,
+      "houseKeyTrustedBy": [
+        "tom"
+      ],
+      "tags": [
+        "Loves pets",
+        "Green thumb"
+      ],
+      "seeking": [
+        "cat-11",
+        "cat-07"
+      ],
+      "activeBookings": 2,
+      "activeClients": [
+        "rico",
+        "dana"
+      ]
+    },
+    {
+      "id": "andrew",
+      "name": "Andrew Antal",
+      "email": "antal2000@yahoo.com",
+      "photo": "/images/profiles/andrew.svg",
+      "householdId": "household-613",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "verifiedDate": "February 2026",
+      "bio": "",
+      "interests": [],
+      "connections": [],
+      "joinedDate": "February 2026",
+      "verified": true,
+      "tasksCompleted": 0,
+      "rating": null,
+      "reviewCount": 0,
+      "totalEarnings": 0,
+      "thisMonthEarnings": 0,
+      "houseKeyTrusted": 0,
+      "houseKeyTrustedBy": [],
+      "tags": [],
+      "seeking": [],
+      "activeBookings": 0,
+      "activeClients": []
+    },
+    {
+      "id": "james",
+      "name": "James Park",
+      "email": "james.park@email.com",
+      "photo": "/images/profiles/james.svg",
+      "householdId": "household-605",
+      "neighborhood": "Harvey Ave Block",
+      "verifiedBlock": "600 Block of N. Harvey Avenue",
+      "verifiedDate": "January 2025",
+      "bio": "College student home for break, looking to earn extra money.",
+      "interests": [
+        "Technology",
+        "Gaming",
+        "Fitness",
+        "Music"
+      ],
+      "connections": [
+        "tom",
+        "dana"
+      ],
+      "joinedDate": "January 2025",
+      "verified": false,
+      "tasksCompleted": 0,
+      "rating": 4.7,
+      "reviewCount": 8,
+      "totalEarnings": 0,
+      "thisMonthEarnings": 0,
+      "houseKeyTrusted": 0,
+      "houseKeyTrustedBy": [],
+      "tags": [
+        "Strong",
+        "Tech-savvy"
+      ],
+      "seeking": [
+        "cat-13"
+      ],
+      "activeBookings": 0,
+      "activeClients": []
+    }
+  ],
+  "services": [
+    {
+      "id": "svc-mel-01",
+      "providerId": "mel",
+      "catalogId": "cat-05",
+      "name": "Laundry",
+      "rate": 25,
+      "rateUnit": "per load",
+      "active": true,
+      "bookings": 12,
+      "category": "Household"
+    },
+    {
+      "id": "svc-mel-02",
+      "providerId": "mel",
+      "catalogId": "cat-06",
+      "name": "Grocery Shopping",
+      "rate": 20,
+      "rateUnit": "per trip",
+      "active": true,
+      "bookings": 7,
+      "category": "Errands"
+    },
+    {
+      "id": "svc-mel-03",
+      "providerId": "mel",
+      "catalogId": "cat-07",
+      "name": "Local Errands",
+      "rate": 18,
+      "rateUnit": "per hour",
+      "active": true,
+      "bookings": 5,
+      "category": "Errands"
+    },
+    {
+      "id": "svc-mel-04",
+      "providerId": "mel",
+      "catalogId": "cat-01",
+      "name": "Package Collection",
+      "rate": 15,
+      "rateUnit": "per pickup",
+      "active": true,
+      "bookings": 8,
+      "category": "Errands"
+    },
+    {
+      "id": "svc-mel-05",
+      "providerId": "mel",
+      "catalogId": "cat-08",
+      "name": "House Sitting",
+      "rate": 30,
+      "rateUnit": "per day",
+      "active": true,
+      "bookings": 2,
+      "category": "Household"
+    },
+    {
+      "id": "svc-tom-01",
+      "providerId": "tom",
+      "catalogId": "cat-13",
+      "name": "Tutoring",
+      "rate": 35,
+      "rateUnit": "per hour",
+      "active": true,
+      "bookings": 9,
+      "category": "Education"
+    },
+    {
+      "id": "svc-tom-02",
+      "providerId": "tom",
+      "catalogId": "cat-11",
+      "name": "DIY Tasks",
+      "rate": 25,
+      "rateUnit": "per hour",
+      "active": true,
+      "bookings": 8,
+      "category": "Household"
+    },
+    {
+      "id": "svc-tom-03",
+      "providerId": "tom",
+      "catalogId": "cat-09",
+      "name": "Pet Sitting",
+      "rate": 0,
+      "rateUnit": "free",
+      "active": true,
+      "bookings": 4,
+      "category": "Pets"
+    },
+    {
+      "id": "svc-tom-04",
+      "providerId": "tom",
+      "catalogId": "cat-02",
+      "name": "Chauffeur",
+      "rate": 20,
+      "rateUnit": "per hour",
+      "active": true,
+      "bookings": 3,
+      "category": "Transport"
+    },
+    {
+      "id": "svc-sarah-01",
+      "providerId": "sarah",
+      "catalogId": "cat-10",
+      "name": "Dog Walking",
+      "rate": 20,
+      "rateUnit": "per walk",
+      "active": true,
+      "bookings": 7,
+      "category": "Pets"
+    },
+    {
+      "id": "svc-sarah-02",
+      "providerId": "sarah",
+      "catalogId": "cat-09",
+      "name": "Pet Sitting",
+      "rate": 25,
+      "rateUnit": "per day",
+      "active": true,
+      "bookings": 4,
+      "category": "Pets"
+    },
+    {
+      "id": "svc-sarah-03",
+      "providerId": "sarah",
+      "catalogId": "cat-08",
+      "name": "House Sitting",
+      "rate": 35,
+      "rateUnit": "per day",
+      "active": true,
+      "bookings": 2,
+      "category": "Household"
+    },
+    {
+      "id": "svc-james-01",
+      "providerId": "james",
+      "catalogId": "cat-11",
+      "name": "DIY Tasks",
+      "rate": 22,
+      "rateUnit": "per hour",
+      "active": true,
+      "bookings": 5,
+      "category": "Household"
+    },
+    {
+      "id": "svc-james-02",
+      "providerId": "james",
+      "catalogId": "cat-07",
+      "name": "Local Errands",
+      "rate": 18,
+      "rateUnit": "per hour",
+      "active": true,
+      "bookings": 3,
+      "category": "Errands"
+    },
+    {
+      "id": "svc-james-03",
+      "providerId": "james",
+      "catalogId": "cat-02",
+      "name": "Chauffeur",
+      "rate": 20,
+      "rateUnit": "per hour",
+      "active": true,
+      "bookings": 2,
+      "category": "Transport"
+    },
+    {
+      "id": "svc-dana-01",
+      "providerId": "dana",
+      "catalogId": "cat-12",
+      "name": "Meals & Cooking",
+      "rate": 30,
+      "rateUnit": "per meal",
+      "active": true,
+      "bookings": 4,
+      "category": "Food"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "booking1",
+      "clientId": "dana",
+      "providerId": "mel",
+      "serviceId": "svc-mel-01",
+      "serviceName": "Laundry",
+      "status": "active",
+      "frequency": "Twice weekly",
+      "nextDate": "Tomorrow, 10:00 AM",
+      "rate": 25,
+      "rateUnit": "per load",
+      "startedDate": "3 weeks ago",
+      "houseKeyAccess": true,
+      "notes": "Prefers eco-friendly detergent. Baby clothes need gentle cycle."
+    },
+    {
+      "id": "booking2",
+      "clientId": "dana",
+      "providerId": "mel",
+      "serviceId": "svc-mel-02",
+      "serviceName": "Grocery Shopping",
+      "status": "active",
+      "frequency": "Weekly",
+      "nextDate": "Friday, 2:00 PM",
+      "rate": 20,
+      "rateUnit": "per trip",
+      "startedDate": "1 week ago",
+      "houseKeyAccess": false,
+      "notes": "Grocery list sent via text Thursday evening. Prefers Whole Foods."
+    },
+    {
+      "id": "booking3",
+      "clientId": "tom",
+      "providerId": "mel",
+      "serviceId": "svc-mel-04",
+      "serviceName": "Package Collection",
+      "status": "active",
+      "frequency": "As needed",
+      "nextDate": "Thursday, 2:00 PM",
+      "rate": 15,
+      "rateUnit": "per pickup",
+      "startedDate": "2 months ago",
+      "houseKeyAccess": true,
+      "notes": "Leave packages on porch table, text when dropped off."
+    },
+    {
+      "id": "booking4",
+      "clientId": "tom",
+      "providerId": "dana",
+      "serviceId": "svc-dana-01",
+      "serviceName": "Meals & Cooking",
+      "status": "active",
+      "frequency": "Weekly",
+      "nextDate": "Wednesday, 5:00 PM",
+      "rate": 30,
+      "rateUnit": "per meal",
+      "startedDate": "2 weeks ago",
+      "houseKeyAccess": false,
+      "notes": "No shellfish. Loves Mediterranean. Drop off in cooler on porch."
+    },
+    {
+      "id": "booking5",
+      "clientId": "sarah",
+      "providerId": "tom",
+      "serviceId": "svc-tom-01",
+      "serviceName": "Tutoring",
+      "status": "active",
+      "frequency": "Twice weekly",
+      "nextDate": "Monday, 4:00 PM",
+      "rate": 35,
+      "rateUnit": "per hour",
+      "startedDate": "1 month ago",
+      "houseKeyAccess": false,
+      "notes": "8th grade math and science. Kids respond well to examples."
+    },
+    {
+      "id": "booking6",
+      "clientId": "rico",
+      "providerId": "sarah",
+      "serviceId": "svc-sarah-01",
+      "serviceName": "Dog Walking",
+      "status": "active",
+      "frequency": "Daily",
+      "nextDate": "Tomorrow, 7:30 AM",
+      "rate": 20,
+      "rateUnit": "per walk",
+      "startedDate": "3 weeks ago",
+      "houseKeyAccess": true,
+      "notes": "Two labs — Biscuit and Pepper. Biscuit pulls on leash, use harness."
+    },
+    {
+      "id": "booking7",
+      "clientId": "james",
+      "providerId": "tom",
+      "serviceId": "svc-tom-02",
+      "serviceName": "DIY Tasks",
+      "status": "active",
+      "frequency": "As needed",
+      "nextDate": "Saturday, 9:00 AM",
+      "rate": 25,
+      "rateUnit": "per hour",
+      "startedDate": "2 weeks ago",
+      "houseKeyAccess": false,
+      "notes": "Fixing deck boards and a leaky faucet. Tom knows where tools are."
+    },
+    {
+      "id": "booking8",
+      "clientId": "dana",
+      "providerId": "sarah",
+      "serviceId": "svc-sarah-02",
+      "serviceName": "Pet Sitting",
+      "status": "active",
+      "frequency": "One-time",
+      "nextDate": "Next Monday, All day",
+      "rate": 25,
+      "rateUnit": "per day",
+      "startedDate": "This week",
+      "houseKeyAccess": true,
+      "notes": "Cat named Mochi. Food in pantry, litter in basement. Very shy at first."
+    },
+    {
+      "id": "booking-c1",
+      "clientId": "dana",
+      "providerId": "mel",
+      "serviceId": "svc-mel-03",
+      "serviceName": "Local Errands",
+      "status": "completed",
+      "frequency": "One-time",
+      "nextDate": null,
+      "completedDate": "Last Monday",
+      "rate": 18,
+      "rateUnit": "per hour",
+      "startedDate": "Last Monday",
+      "houseKeyAccess": false,
+      "notes": "Post office run and dry cleaning pickup."
+    },
+    {
+      "id": "booking-c2",
+      "clientId": "tom",
+      "providerId": "mel",
+      "serviceId": "svc-mel-05",
+      "serviceName": "House Sitting",
+      "status": "completed",
+      "frequency": "One-time",
+      "nextDate": null,
+      "completedDate": "2 weeks ago",
+      "rate": 30,
+      "rateUnit": "per day",
+      "startedDate": "2 weeks ago",
+      "houseKeyAccess": true,
+      "notes": "Watered plants and took in mail while Tom was in Chicago."
+    },
+    {
+      "id": "booking-c3",
+      "clientId": "sarah",
+      "providerId": "tom",
+      "serviceId": "svc-tom-04",
+      "serviceName": "Chauffeur",
+      "status": "completed",
+      "frequency": "One-time",
+      "nextDate": null,
+      "completedDate": "Last Friday",
+      "rate": 20,
+      "rateUnit": "per hour",
+      "startedDate": "Last Friday",
+      "houseKeyAccess": false,
+      "notes": "Airport run to O'Hare, early morning."
+    }
+  ],
+  "seekingHelp": [
+    {
+      "id": "seek-dana-01",
+      "userId": "dana",
+      "catalogId": "cat-05",
+      "name": "Laundry",
+      "frequency": "Twice weekly",
+      "budget": "$20-30/load",
+      "priority": "high",
+      "status": "active",
+      "matchedWith": "mel"
+    },
+    {
+      "id": "seek-dana-02",
+      "userId": "dana",
+      "catalogId": "cat-06",
+      "name": "Grocery Shopping",
+      "frequency": "Weekly",
+      "budget": "$15-25/trip",
+      "priority": "high",
+      "status": "active",
+      "matchedWith": "mel"
+    },
+    {
+      "id": "seek-dana-03",
+      "userId": "dana",
+      "catalogId": "cat-03",
+      "name": "Babysitting",
+      "frequency": "As needed",
+      "budget": "$20-25/hr",
+      "priority": "medium",
+      "status": "seeking",
+      "matchedWith": null
+    },
+    {
+      "id": "seek-dana-04",
+      "userId": "dana",
+      "catalogId": "cat-04",
+      "name": "After School Child Care",
+      "frequency": "Weekdays",
+      "budget": "$18/hr",
+      "priority": "medium",
+      "status": "seeking",
+      "matchedWith": null
+    },
+    {
+      "id": "seek-rico-01",
+      "userId": "rico",
+      "catalogId": "cat-07",
+      "name": "Local Errands",
+      "frequency": "As needed",
+      "budget": "$18/hr",
+      "priority": "low",
+      "status": "seeking",
+      "matchedWith": null
+    },
+    {
+      "id": "seek-tom-01",
+      "userId": "tom",
+      "catalogId": "cat-12",
+      "name": "Meals & Cooking",
+      "frequency": "Weekly",
+      "budget": "$30/meal",
+      "priority": "high",
+      "status": "active",
+      "matchedWith": "dana"
+    },
+    {
+      "id": "seek-tom-02",
+      "userId": "tom",
+      "catalogId": "cat-06",
+      "name": "Grocery Shopping",
+      "frequency": "Bi-weekly",
+      "budget": "$20/trip",
+      "priority": "medium",
+      "status": "seeking",
+      "matchedWith": null
+    },
+    {
+      "id": "seek-sarah-01",
+      "userId": "sarah",
+      "catalogId": "cat-11",
+      "name": "DIY Tasks",
+      "frequency": "As needed",
+      "budget": "$25/hr",
+      "priority": "low",
+      "status": "seeking",
+      "matchedWith": null
+    },
+    {
+      "id": "seek-james-01",
+      "userId": "james",
+      "catalogId": "cat-13",
+      "name": "Tutoring",
+      "frequency": "Weekly",
+      "budget": "$35/hr",
+      "priority": "high",
+      "status": "seeking",
+      "matchedWith": null
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review1",
+      "providerId": "mel",
+      "reviewerId": "dana",
+      "reviewerName": "Dana Martinez",
+      "rating": 5,
+      "comment": "Mel is amazing! So reliable and goes above and beyond. I trust her completely in my home.",
+      "date": "2024-11-15",
+      "serviceType": "Laundry Service"
+    },
+    {
+      "id": "review2",
+      "providerId": "mel",
+      "reviewerId": "tom",
+      "reviewerName": "Tom Williams",
+      "rating": 5,
+      "comment": "Very dependable and trustworthy. Always on time and does excellent work.",
+      "date": "2024-10-20",
+      "serviceType": "Package Collection"
+    },
+    {
+      "id": "review3",
+      "providerId": "tom",
+      "reviewerId": "dana",
+      "reviewerName": "Dana Martinez",
+      "rating": 5,
+      "comment": "Tom is wonderful! So patient and knowledgeable. Highly recommend.",
+      "date": "2024-09-10",
+      "serviceType": "DIY Assistance"
+    },
+    {
+      "id": "review4",
+      "providerId": "dana",
+      "reviewerId": "tom",
+      "reviewerName": "Tom Williams",
+      "rating": 5,
+      "comment": "Dana's meal prep is incredible. Delicious, well-portioned, and always on time.",
+      "date": "2025-01-28",
+      "serviceType": "Meal Prep & Delivery"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif1",
+      "userId": "dana",
+      "type": "booking_reminder",
+      "title": "Upcoming Service",
+      "message": "Mel will be arriving tomorrow at 10:00 AM for laundry service",
+      "read": false,
+      "createdAt": "2025-02-02T18:30:00Z"
+    },
+    {
+      "id": "notif2",
+      "userId": "dana",
+      "type": "new_neighbor",
+      "title": "New Neighbor Joined",
+      "message": "James Park just joined BlockButler on your block!",
+      "read": false,
+      "createdAt": "2025-02-01T14:20:00Z"
+    },
+    {
+      "id": "notif3",
+      "userId": "mel",
+      "type": "new_booking",
+      "title": "New Booking Request",
+      "message": "Dana Martinez requested a grocery delivery for Friday",
+      "read": true,
+      "createdAt": "2025-01-28T09:15:00Z"
+    }
+  ],
+  "serviceCatalog": [
+    {
+      "id": "cat-01",
+      "name": "Package Collection",
+      "category": "Errands",
+      "icon": "📦",
+      "defaultRate": 15,
+      "rateUnit": "per pickup"
+    },
+    {
+      "id": "cat-02",
+      "name": "Chauffeur",
+      "category": "Transport",
+      "icon": "🚗",
+      "defaultRate": 25,
+      "rateUnit": "per hour"
+    },
+    {
+      "id": "cat-03",
+      "name": "Babysitting",
+      "category": "Childcare",
+      "icon": "👶",
+      "defaultRate": 20,
+      "rateUnit": "per hour"
+    },
+    {
+      "id": "cat-04",
+      "name": "After School Child Care",
+      "category": "Childcare",
+      "icon": "🏫",
+      "defaultRate": 18,
+      "rateUnit": "per hour"
+    },
+    {
+      "id": "cat-05",
+      "name": "Laundry",
+      "category": "Household",
+      "icon": "🧺",
+      "defaultRate": 25,
+      "rateUnit": "per load"
+    },
+    {
+      "id": "cat-06",
+      "name": "Grocery Shopping",
+      "category": "Errands",
+      "icon": "🛒",
+      "defaultRate": 20,
+      "rateUnit": "per trip"
+    },
+    {
+      "id": "cat-07",
+      "name": "Local Errands",
+      "category": "Errands",
+      "icon": "🏃",
+      "defaultRate": 18,
+      "rateUnit": "per hour"
+    },
+    {
+      "id": "cat-08",
+      "name": "House Sitting",
+      "category": "Household",
+      "icon": "🏠",
+      "defaultRate": 30,
+      "rateUnit": "per day"
+    },
+    {
+      "id": "cat-09",
+      "name": "Pet Sitting",
+      "category": "Pets",
+      "icon": "🐾",
+      "defaultRate": 25,
+      "rateUnit": "per day"
+    },
+    {
+      "id": "cat-10",
+      "name": "Dog Walking",
+      "category": "Pets",
+      "icon": "🐕",
+      "defaultRate": 20,
+      "rateUnit": "per walk"
+    },
+    {
+      "id": "cat-11",
+      "name": "DIY Tasks",
+      "category": "Household",
+      "icon": "🔧",
+      "defaultRate": 25,
+      "rateUnit": "per hour"
+    },
+    {
+      "id": "cat-12",
+      "name": "Meals & Cooking",
+      "category": "Food",
+      "icon": "🍳",
+      "defaultRate": 30,
+      "rateUnit": "per meal"
+    },
+    {
+      "id": "cat-13",
+      "name": "Tutoring",
+      "category": "Education",
+      "icon": "📚",
+      "defaultRate": 35,
+      "rateUnit": "per hour"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-001",
+      "type": "cat-10",
+      "typeName": "Dog Walking",
+      "status": "requested",
+      "butlerId": "sarah",
+      "principalId": "dana",
+      "proposedRate": 20,
+      "rateUnit": "per walk",
+      "date": "2026-02-25",
+      "time": "7:30 AM",
+      "notes": "Both dogs, about 45 mins. Regular weekly thing if it goes well.",
+      "createdAt": "2026-02-18T09:15:00"
+    },
+    {
+      "id": "req-002",
+      "type": "cat-06",
+      "typeName": "Grocery Shopping",
+      "status": "requested",
+      "butlerId": "mel",
+      "principalId": "tom",
+      "proposedRate": 20,
+      "rateUnit": "per trip",
+      "date": "2026-02-22",
+      "time": "10:00 AM",
+      "notes": "Whole Foods list, about 20 items. Will text list morning of.",
+      "createdAt": "2026-02-18T11:30:00"
+    },
+    {
+      "id": "req-003",
+      "type": "cat-13",
+      "typeName": "Tutoring",
+      "status": "requested",
+      "butlerId": "tom",
+      "principalId": "james",
+      "proposedRate": 35,
+      "rateUnit": "per hour",
+      "date": "2026-02-24",
+      "time": "4:00 PM",
+      "notes": "SAT prep, algebra and reading comp. First session exploratory.",
+      "createdAt": "2026-02-17T16:45:00"
+    },
+    {
+      "id": "req-004",
+      "type": "cat-11",
+      "typeName": "DIY Tasks",
+      "status": "requested",
+      "butlerId": "james",
+      "principalId": "sarah",
+      "proposedRate": 22,
+      "rateUnit": "per hour",
+      "date": "2026-02-26",
+      "time": "9:00 AM",
+      "notes": "Hanging some shelves and fixing a stuck door. Maybe 2 hours.",
+      "createdAt": "2026-02-18T08:00:00"
+    },
+    {
+      "id": "req-005",
+      "type": "cat-09",
+      "typeName": "Pet Sitting",
+      "status": "scheduled",
+      "butlerId": "sarah",
+      "principalId": "rico",
+      "proposedRate": 25,
+      "rateUnit": "per day",
+      "date": "2026-02-28",
+      "time": "All day",
+      "notes": "Two cats. Food on counter, litter daily. Very easy.",
+      "createdAt": "2026-02-15T14:00:00"
+    },
+    {
+      "id": "req-006",
+      "type": "cat-05",
+      "typeName": "Laundry",
+      "status": "scheduled",
+      "butlerId": "mel",
+      "principalId": "dana",
+      "proposedRate": 25,
+      "rateUnit": "per load",
+      "date": "2026-02-20",
+      "time": "10:00 AM",
+      "notes": "3 loads. Baby clothes on gentle. Eco detergent under sink.",
+      "createdAt": "2026-02-16T10:00:00"
+    },
+    {
+      "id": "req-007",
+      "type": "cat-02",
+      "typeName": "Chauffeur",
+      "status": "cancelled",
+      "butlerId": "tom",
+      "principalId": "dana",
+      "proposedRate": 20,
+      "rateUnit": "per hour",
+      "date": "2026-02-17",
+      "time": "6:00 AM",
+      "notes": "Airport run. Cancelled — flight rescheduled.",
+      "createdAt": "2026-02-14T09:00:00"
+    },
+    {
+      "id": "req-008",
+      "type": "cat-07",
+      "typeName": "Local Errands",
+      "status": "completed",
+      "butlerId": "mel",
+      "principalId": "dana",
+      "proposedRate": 18,
+      "rateUnit": "per hour",
+      "date": "2026-02-17",
+      "time": "11:00 AM",
+      "notes": "Post office and pharmacy. Completed successfully.",
+      "createdAt": "2026-02-16T18:00:00"
+    },
+    {
+      "id": "req-009",
+      "type": "cat-12",
+      "typeName": "Meals & Cooking",
+      "status": "completed",
+      "butlerId": "dana",
+      "principalId": "tom",
+      "proposedRate": 30,
+      "rateUnit": "per meal",
+      "date": "2026-02-12",
+      "time": "5:00 PM",
+      "notes": "Mediterranean spread for 4. Tom loved it.",
+      "createdAt": "2026-02-10T12:00:00"
+    }
+  ]
+}
