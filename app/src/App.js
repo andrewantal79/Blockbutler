@@ -370,6 +370,7 @@ const BlockButlerApp = () => {
   const [bookings, setBookings] = useState([]);
   const [serviceCatalog, setServiceCatalog] = useState([]);
   const [requests, setRequests] = useState([]);
+  const [communityBoard, setCommunityBoard] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -412,6 +413,10 @@ const BlockButlerApp = () => {
         try {
           const requestsRes = await fetch('http://localhost:3001/requests');
           if (requestsRes.ok) setRequests(await requestsRes.json());
+        } catch(e) {}
+        try {
+          const communityRes = await fetch('http://localhost:3001/communityBoard');
+          if (communityRes.ok) setCommunityBoard(await communityRes.json());
         } catch(e) {}
         
         setLoading(false);
@@ -1732,6 +1737,16 @@ const BlockButlerApp = () => {
                     </div>
                   )}
 
+                  {communityBoard.filter(p => p.userId === neighbor.id && p.active).length > 0 && (
+                    <div className="community-connect-badges">
+                      {communityBoard.filter(p => p.userId === neighbor.id && p.active).map(post => (
+                        <span key={post.id} className="community-connect-badge">
+                          {post.icon} {post.title}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
                   {neighbor.services && neighbor.services.length > 0 && (
                     <div className="services-preview">
                       <strong>Services:</strong>
@@ -1882,6 +1897,31 @@ const BlockButlerApp = () => {
             ))}
           </div>
         </div>
+
+        {communityBoard.filter(p => p.userId === selectedButler.id && p.active).length > 0 && (
+          <div className="community-section">
+            <h3>🌱 Looking to Connect</h3>
+            <p className="community-section-subtitle">Non-transactional ways to connect with {selectedButler.name.split(' ')[0]}</p>
+            <div className="community-posts-list">
+              {communityBoard.filter(p => p.userId === selectedButler.id && p.active).map(post => (
+                <div key={post.id} className="community-post-card">
+                  <div className="community-post-icon">{post.icon}</div>
+                  <div className="community-post-body">
+                    <h4>{post.title}</h4>
+                    <p>{post.description}</p>
+                    <div className="community-post-meta">
+                      {post.frequency && <span className="community-meta-chip">🔁 {post.frequency}</span>}
+                      {post.location && post.location !== 'Flexible' && <span className="community-meta-chip">📍 {post.location}</span>}
+                    </div>
+                    <div className="community-post-tags">
+                      {(post.tags || []).map((t, i) => <span key={i} className="community-tag">{t}</span>)}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="services-section">
           <h3>Services Offered</h3>
@@ -2724,6 +2764,32 @@ const BlockButlerApp = () => {
           <button className="add-more-button"><Plus size={16} />Add More Interests</button>
         </div>
 
+        {/* Community Board */}
+        {communityBoard.filter(p => p.userId === activeUser.id && p.active).length > 0 && (
+          <div className="profile-section community-section">
+            <div className="section-header">
+              <h3>🌱 Looking to Connect</h3>
+              <button className="edit-section-button"><Plus size={16} /><span>Add</span></button>
+            </div>
+            <p className="section-description">Non-transactional ways you want to connect with neighbors</p>
+            <div className="community-posts-list">
+              {communityBoard.filter(p => p.userId === activeUser.id && p.active).map(post => (
+                <div key={post.id} className="community-post-card">
+                  <div className="community-post-icon">{post.icon}</div>
+                  <div className="community-post-body">
+                    <h4>{post.title}</h4>
+                    <p>{post.description}</p>
+                    <div className="community-post-meta">
+                      {post.frequency && <span className="community-meta-chip">🔁 {post.frequency}</span>}
+                      {post.location && post.location !== 'Flexible' && <span className="community-meta-chip">📍 {post.location}</span>}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Connections */}
         <div className="profile-section connections-section">
           <div className="section-header">
@@ -3533,6 +3599,26 @@ const BlockButlerApp = () => {
           font-weight: 500;
         }
 
+        .community-connect-badges {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 8px;
+          margin-bottom: 14px;
+        }
+
+        .community-connect-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 5px;
+          padding: 5px 11px;
+          background: #EEF6EE;
+          border: 1px solid #C3DEC3;
+          border-radius: 20px;
+          font-size: 12px;
+          color: #3A6B3A;
+          font-weight: 500;
+        }
+
         .services-preview {
           margin-bottom: 16px;
         }
@@ -3874,12 +3960,94 @@ const BlockButlerApp = () => {
 
         .about-section,
         .services-section,
-        .stats-section {
+        .stats-section,
+        .community-section {
           background: white;
           border-radius: 20px;
           padding: 24px;
           border: 2px solid #E0D8C8;
           margin-bottom: 24px;
+        }
+
+        .community-section {
+          border-color: #C3DEC3;
+          background: #FAFFF8;
+        }
+
+        .community-section-subtitle {
+          font-size: 13px;
+          color: #6B8B6B;
+          margin-bottom: 16px;
+          margin-top: -8px;
+        }
+
+        .community-posts-list {
+          display: flex;
+          flex-direction: column;
+          gap: 14px;
+        }
+
+        .community-post-card {
+          display: flex;
+          gap: 14px;
+          padding: 14px;
+          background: white;
+          border-radius: 12px;
+          border: 1px solid #D8EDD8;
+        }
+
+        .community-post-icon {
+          font-size: 28px;
+          flex-shrink: 0;
+          line-height: 1.2;
+        }
+
+        .community-post-body {
+          flex: 1;
+        }
+
+        .community-post-body h4 {
+          font-family: 'Quicksand', sans-serif;
+          font-size: 15px;
+          font-weight: 700;
+          color: #2C2C2C;
+          margin: 0 0 6px 0;
+        }
+
+        .community-post-body p {
+          font-size: 13px;
+          color: #5C5C5C;
+          line-height: 1.5;
+          margin: 0 0 10px 0;
+        }
+
+        .community-post-meta {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 6px;
+          margin-bottom: 8px;
+        }
+
+        .community-meta-chip {
+          font-size: 12px;
+          color: #3A6B3A;
+          background: #EEF6EE;
+          border-radius: 8px;
+          padding: 3px 8px;
+        }
+
+        .community-post-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 5px;
+        }
+
+        .community-tag {
+          font-size: 11px;
+          color: #7A9B7A;
+          background: #F0F8F0;
+          border-radius: 6px;
+          padding: 2px 7px;
         }
 
         .about-section h3,

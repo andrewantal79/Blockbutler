@@ -137,14 +137,15 @@
       "neighborhood": "Harvey Ave Block",
       "verifiedBlock": "600 Block of N. Harvey Avenue",
       "verifiedDate": "November 2024",
-      "bio": "New mom looking for reliable help with everyday tasks. Love connecting with neighbors!",
+      "bio": "New mom looking for reliable help with everyday tasks. Love connecting with neighbors! My daughter Lily (3.5 yrs) is always up for a playdate.",
       "interests": [
         "Parenting",
         "Gardening",
         "Cooking",
         "Book Club",
         "Running",
-        "Community Events"
+        "Community Events",
+        "Playdates"
       ],
       "connections": [
         "tom",
@@ -174,6 +175,9 @@
       "activeBookings": 2,
       "activeClients": [
         "tom"
+      ],
+      "children": [
+        { "name": "Lily", "age": 3.5 }
       ]
     },
     {
@@ -185,12 +189,14 @@
       "neighborhood": "Harvey Ave Block",
       "verifiedBlock": "600 Block of N. Harvey Avenue",
       "verifiedDate": "November 2024",
-      "bio": "Dana's partner. Work from home, happy to help when available.",
+      "bio": "Dana's partner. Work from home, happy to help when available. Big Premier League fan — always looking for fellow supporters to watch matches with.",
       "interests": [
         "Cooking",
         "Soccer",
+        "Premier League",
         "Music",
-        "Tech"
+        "Tech",
+        "Watch Parties"
       ],
       "connections": [
         "tom",
@@ -222,14 +228,15 @@
       "neighborhood": "Harvey Ave Block",
       "verifiedBlock": "600 Block of N. Harvey Avenue",
       "verifiedDate": "August 2024",
-      "bio": "Stay-at-home parent with flexible schedule. Love helping neighbors!",
+      "bio": "Stay-at-home parent with flexible schedule. Love helping neighbors! Big on volunteering and always looking for the next community opportunity.",
       "interests": [
         "Cooking",
         "Organization",
         "Children",
         "Fitness",
         "Volunteering",
-        "Reading"
+        "Reading",
+        "Community Service"
       ],
       "connections": [
         "dana",
@@ -270,13 +277,15 @@
       "neighborhood": "Harvey Ave Block",
       "verifiedBlock": "600 Block of N. Harvey Avenue",
       "verifiedDate": "June 2024",
-      "bio": "Retired teacher, happy to help with tutoring and handyman work.",
+      "bio": "Retired teacher, happy to help with tutoring and handyman work. Play tennis every other Saturday at Mills Park — always looking for a partner!",
       "interests": [
         "Teaching",
         "DIY Projects",
         "Pets",
         "History",
-        "Community Service"
+        "Community Service",
+        "Tennis",
+        "Outdoor Sports"
       ],
       "connections": [
         "mel",
@@ -394,10 +403,12 @@
       "neighborhood": "Harvey Ave Block",
       "verifiedBlock": "600 Block of N. Harvey Avenue",
       "verifiedDate": "January 2025",
-      "bio": "College student home for break, looking to earn extra money.",
+      "bio": "College student home for break, looking to earn extra money. Also trying to get a neighborhood D&D group going — beginners very welcome!",
       "interests": [
         "Technology",
         "Gaming",
+        "Tabletop RPGs",
+        "Dungeons & Dragons",
         "Fitness",
         "Music"
       ],
@@ -1177,6 +1188,84 @@
       "time": "5:00 PM",
       "notes": "Mediterranean spread for 4. Tom loved it.",
       "createdAt": "2026-02-10T12:00:00"
+    }
+  ],
+  "communityBoard": [
+    {
+      "id": "comm-001",
+      "userId": "tom",
+      "type": "sports",
+      "title": "Tennis Partner Wanted",
+      "description": "Looking for a casual tennis partner every other Saturday morning! I play at Mills Park courts — intermediate level, but all abilities welcome. Great way to start the weekend.",
+      "icon": "🎾",
+      "frequency": "Every other Saturday",
+      "time": "9:00 AM",
+      "location": "Mills Park Tennis Courts, Oak Park",
+      "tags": ["Tennis", "Sports", "Outdoor", "Active"],
+      "interestedUsers": [],
+      "createdAt": "2026-02-10T10:00:00",
+      "active": true
+    },
+    {
+      "id": "comm-002",
+      "userId": "rico",
+      "type": "sports_watching",
+      "title": "Premier League Watch Party",
+      "description": "Die-hard Premier League fan here! I watch nearly every weekend match and would love fellow supporters to join. All clubs welcome — good banter guaranteed. We usually gather at my place.",
+      "icon": "⚽",
+      "frequency": "Weekends (match days)",
+      "time": "Varies with fixture list",
+      "location": "248 W. Iowa Street",
+      "tags": ["Soccer", "Premier League", "Football", "Watch Party", "Sports"],
+      "interestedUsers": [],
+      "createdAt": "2026-02-12T14:00:00",
+      "active": true
+    },
+    {
+      "id": "comm-003",
+      "userId": "dana",
+      "type": "kids",
+      "title": "Playdate for Lily (3.5 yrs)",
+      "description": "My daughter Lily is 3.5 and absolutely loves playing with other kids! Looking to connect with neighbors who have little ones in the 3–4 age range for regular playdates. Parks, backyards, or our place — whatever works!",
+      "icon": "🧒",
+      "frequency": "Weekly or bi-weekly",
+      "time": "Flexible — mornings or afternoons",
+      "location": "Flexible",
+      "tags": ["Kids", "Playdate", "Toddlers", "Parenting"],
+      "childAgeRange": "3–4 years",
+      "interestedUsers": [],
+      "createdAt": "2026-02-14T09:00:00",
+      "active": true
+    },
+    {
+      "id": "comm-004",
+      "userId": "james",
+      "type": "gaming",
+      "title": "Starting a Neighborhood D&D Group",
+      "description": "Want to roll dice and go on adventures? I'm looking to start a monthly Dungeons & Dragons group right here on the block. I can DM for beginners and we'll keep it fun and low-pressure. Snacks provided.",
+      "icon": "🐉",
+      "frequency": "Monthly",
+      "time": "Evening — TBD by group",
+      "location": "605 N. Harvey Avenue (rotating welcome)",
+      "tags": ["D&D", "Dungeons & Dragons", "Tabletop", "RPG", "Gaming", "Social"],
+      "interestedUsers": [],
+      "createdAt": "2026-02-15T20:00:00",
+      "active": true
+    },
+    {
+      "id": "comm-005",
+      "userId": "mel",
+      "type": "volunteering",
+      "title": "Volunteer Squad — Join Me!",
+      "description": "I love volunteering and would love some neighbors to come along! I'm interested in local food banks, community clean-ups, school reading programs, and park restoration. No commitment needed — join when you can.",
+      "icon": "🤝",
+      "frequency": "As opportunities arise",
+      "time": "Varies",
+      "location": "Various Oak Park locations",
+      "tags": ["Volunteering", "Community", "Giving Back", "Service", "Oak Park"],
+      "interestedUsers": [],
+      "createdAt": "2026-02-16T11:00:00",
+      "active": true
     }
   ]
 }
