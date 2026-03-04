@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { MapPin, Star, Shield, Calendar, DollarSign, Users, Clock, CheckCircle, MessageCircle, Heart, Search, Filter, Home, User, Bell, Menu, X, Plus, ChevronRight, TrendingUp, Award, Key, Edit, List, Map } from 'lucide-react';
 
 // ─── Google Maps Configuration ───────────────────────────────────────────────
-const GOOGLE_MAPS_API_KEY = 'AIzaSyBufA5vSXzxRPYrWr_2m-s2PJabZJ4yxW0';
+const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_KEY;
 
 // Neighborhood center — 600 Block of N. Harvey Ave, Oak Park, IL
 const NEIGHBORHOOD_CENTER = { lat: 41.8878, lng: -87.8028 };
